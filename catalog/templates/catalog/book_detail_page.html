@@ -1,0 +1,14 @@
+{% extends "base.html"%}
+
+{% block content  %}
+
+<!--title, author, summary--> >
+
+{% if book %}
+    {{book.title}}
+    {{book.author}}
+    {{book.summary}}
+{% endif%}
+
+
+{% endblock  %}
